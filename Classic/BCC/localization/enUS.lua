@@ -23,6 +23,15 @@ L["config_what_to_display_desc"] = "These settings control what type of icons to
 L["config_portal"] = "Portal"
 L["config_portal_desc"] = "Show the Portal locations."
 
+L["config_flightpath"] = "Flight Paths"
+L["config_flightpath_desc"] = "Show the Flight Path locations."
+
+L["config_dungeon"] = "Dungeon"
+L["config_dungeon_desc"] = "Show the Dungeon locations."
+
+L["config_raid"] = "Raid"
+L["config_raid_desc"] = "Show the Raid locations."
+
 L["config_boat"] = "Boat"
 L["config_boat_desc"] = "Show the boat locations."
 L["config_boat_alliance"] = "Alliance Boat"

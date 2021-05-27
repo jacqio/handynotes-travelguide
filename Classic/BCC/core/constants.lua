@@ -21,6 +21,12 @@ constants.defaults = {
         icon_alpha_zeppelin = 1.0,
         icon_scale_tram = 1.5,
         icon_alpha_tram = 1.0,
+		icon_scale_flightpath = 1.0,
+        icon_alpha_flightpath = 1.0,
+		icon_scale_dungeon = 2.0,
+        icon_alpha_dungeon = 1.0,
+		icon_scale_raid = 2.0,
+        icon_alpha_raid = 1.0,
 
         show_portal = true,
         show_tram = true,
@@ -29,6 +35,9 @@ constants.defaults = {
         show_zeppelin = true,
         show_hzeppelin = true,
         show_note = true,
+		show_flightpath = true,
+		show_dungeon = true,
+		show_raid = true,
         easy_waypoint = true,
 
         force_nodes = false,
@@ -63,4 +72,7 @@ constants.icon = {
     tram            = "Interface\\AddOns\\HandyNotes_TravelGuide (BCC)\\icons\\tram",
     zeppelin        = "Interface\\AddOns\\HandyNotes_TravelGuide (BCC)\\icons\\zeppelin",
     hzeppelin       = "Interface\\AddOns\\HandyNotes_TravelGuide (BCC)\\icons\\zeppelin_horde",
+	flightpath		= "Interface\\Minimap\\Tracking\\FlightMaster",
+	dungeon			= "Interface\\Minimap\\Dungeon",
+	raid			= "Interface\\Minimap\\Raid",
 }

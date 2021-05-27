@@ -247,6 +247,9 @@ local currentMapID = nil
         if (point.icon == "aboat" and not private.db.show_aboat) then return false end
         if (point.icon == "zeppelin" and not private.db.show_zeppelin) then return false end
         if (point.icon == "hzeppelin" and not private.db.show_hzeppelin) then return false end
+		if (point.icon == "flightpath" and not private.db.show_flightpath) then return false end
+		if (point.icon == "dungeon" and not private.db.show_dungeon) then return false end
+		if (point.icon == "raid" and not private.db.show_dungeon) then return false end
     end
         return true
     end

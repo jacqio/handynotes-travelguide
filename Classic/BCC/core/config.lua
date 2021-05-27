@@ -101,10 +101,28 @@ config.options = {
                     desc = L["config_note_desc"],
                     order = 17,
                 },
+				show_flightpath = {
+                    type = "toggle",
+                    name = L["config_flightpath"],
+                    desc = L["config_flightpath_desc"],
+                    order = 18,
+                },
+				show_dungeon = {
+                    type = "toggle",
+                    name = L["config_dungeon"],
+                    desc = L["config_dungeon_desc"],
+                    order = 19,
+                },
+				show_raid = {
+                    type = "toggle",
+                    name = L["config_raid"],
+                    desc = L["config_raid_desc"],
+                    order = 20,
+                },
                 other_line = {
                     type = "header",
                     name = "",
-                    order = 18,
+                    order = 21,
                 },
                 easy_waypoint = {
                     type = "toggle",
@@ -118,7 +136,7 @@ config.options = {
                     end,
                     disabled = function() return not TomTom end,
                     desc = L["config_easy_waypoints_desc"],
-                    order = 19,
+                    order = 22,
                 },
                 unhide = {
                     type = "execute",
@@ -132,7 +150,7 @@ config.options = {
                         addon:Refresh()
                         print("TravelGuide (BCC): "..L["config_restore_nodes_print"])
                     end,
-                    order = 20,
+                    order = 23,
                 },
             },
             },
@@ -150,7 +168,7 @@ config.options = {
     },
 }
 
-for i, icongroup in ipairs({"portal", "boat", "zeppelin", "tram"}) do
+for i, icongroup in ipairs({"portal", "boat", "zeppelin", "tram", "flightpath", "dungeon", "raid"}) do
 
     config.options.args.SCALEALPHA.args["name_"..icongroup] = {
         type = "header",
